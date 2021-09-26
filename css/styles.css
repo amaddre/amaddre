@@ -1,0 +1,244 @@
+.navbar-header,
+nav>.container {
+    min-height: inherit;
+}
+
+section {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+section.content {
+    padding: 3em 1em;
+    background-color: #E9E5AE;
+    color: #000;
+}
+
+section.contato {
+    padding: 3em 1em;
+	background-color: #C1A976;
+    color: #fff;
+}
+
+section:first-of-type {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+section.title {
+    padding: 3em 1em;
+}
+
+html {
+    height: 100% !important;
+}
+
+body {
+    background-color: #C1A976;
+}
+
+h1.calltoaction {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+i.s {
+    font-family: Arial, Verdana !important;
+}
+
+.home * {
+    color: #30150e;
+}
+
+.icon-bar {
+    background-color: #fff !important;
+}
+
+.content * {
+    color: rgb(0, 0, 0);
+    background-color: #E9E5AE;
+}
+
+.content h1 {
+	margin-bottom: .8em;
+}
+
+.dark-background {
+    background-color: #C1A976;
+    color: #fff;
+}
+
+.light-background {
+    background-color: #E9E5AE;
+    color: #000;
+}
+
+input.light-background {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.yellow-borders {
+    border: 2px solid #E9E5AE;
+}
+
+.mynavbar {
+    color: #C1A976;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+label {
+    background-color: #fff;
+}
+
+textarea {
+    margin: 0;
+}
+
+input,
+label,
+textarea {
+    width: 100%;
+    color: #333 !important;
+}
+
+input,
+textarea {
+    padding: 0.4em;
+    border: 1px solid #ccc;
+}
+
+.teste {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+}
+
+.product_catalog {
+    padding-top: 3em;
+    padding-left: 1em;
+}
+
+.margin-bottom-single {
+    margin-bottom: 0.75em;
+}
+
+.margin-bottom-double {
+    margin-bottom: 1.5em;
+}
+
+.product-button {
+    margin: auto;
+    max-height: 9.2em;
+    width: 14em;
+    padding: 0.05em;
+    box-shadow: 0;
+}
+
+.product-button * {
+    margin: auto;
+}
+
+.product-button.active,
+.product-button:hover {
+    box-shadow: 0 0 0 5px #E9E5AE;
+}
+
+.banner-flag {
+    background-image: url(../images/banner.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    width: 161px;
+    height: 40px;
+    padding-top: 0.8em;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+#myCarousel::after,
+div.carousel-main {
+    width: 100% !important;
+    height: 100% !important;
+    background-repeat: no-repeat;
+}
+
+.banner-flag>span {
+    font-family: SantEliaScriptBold;
+    color: #f3dc79;
+    font-size: 1em;
+    min-width: 40em;
+    white-space: nowrap;
+}
+
+.sejadonoimg {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+.form-control-parley-error,
+.parsley-error {
+    background-color: #f99;
+    border-color: #fff;
+}
+
+.parsley-errors-list {
+    margin: 0;
+    padding: 0;
+}
+
+.parsley-errors-list.filled>li {
+    margin: 0;
+    padding-left: 0.5em;
+    width: 100%;
+    color: #f22;
+    background-color: #fff;
+    list-style: none;
+    font-weight: 400;
+}
+
+input.parsley-error::-webkit-input-placeholder,
+textarea.parsley-error::-webkit-input-placeholder {
+    color: #222;
+}
+
+input.parsley-error::-moz-placeholder,
+textarea.parsley-error::-moz-placeholder {
+    color: #222;
+}
+
+input.parsley-error:-ms-input-placeholder,
+textarea.parsley-error:-ms-input-placeholder {
+    color: #222;
+}
+
+input.parsley-error:-moz-placeholder,
+textarea.parsley-error:-moz-placeholder {
+    color: #222;
+}
+
+.parsley-success {
+    background-color: #dfd;
+    border-color: #3d3;
+}
+
+img.logo {
+    float: left;
+    width: 200px;
+}
+
+img.catalog {
+	width: 100%;
+	height: auto;
+    border: 3px solid #C1A976;
+    border-radius: 1em;
+	background-color: #fff;
+}
+
+input[type=submit] {
+	max-width: 10em;
+	border-radius: 1em;
+}

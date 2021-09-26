@@ -1,0 +1,14 @@
+{
+  "name": "ammadre_website",
+  "version": "1.0.0",
+  "description": "Amaddre's responsive website",
+  "main": "index.js",
+  "scripts": {
+    "test": "http-server"
+  },
+  "author": "Thiago Sckianta",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
